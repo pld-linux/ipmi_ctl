@@ -38,14 +38,15 @@ PCI.
 
 %build
 %{__make} \
-	CC="%{__cc}"
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags} -I."
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_sbindir},%{_mandir}/man8}
 
 install %{name} $RPM_BUILD_ROOT%{_sbindir}
-install *.8 $RPM_BUILD_ROOT%{_mandir}/man8
+install %{name}.8 $RPM_BUILD_ROOT%{_mandir}/man8
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -53,4 +54,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_sbindir}/*
-%{_mandir}/man?/*
+%{_mandir}/man8/*
