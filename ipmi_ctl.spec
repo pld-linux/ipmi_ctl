@@ -1,5 +1,5 @@
 Summary:	Utilities to interface with IPMI based managment hardware
-Summary(pl):	Narzêdzia sprzêgaj±ce ze sprzêtem zarz±dzanym w oparciu o IPMI
+Summary(pl.UTF-8):   NarzÄ™dzia sprzÄ™gajÄ…ce ze sprzÄ™tem zarzÄ…dzanym w oparciu o IPMI
 Name:		ipmi_ctl
 Version:	2.0
 Release:	1
@@ -17,19 +17,19 @@ Management Interface. Supports features such as watchdogs, FRU
 download. ethtool is a small utility for examining and tuning your
 ethernet-based network interface.
 
-%description -l es
+%description -l es.UTF-8
 Grupos de herramientas Ethernet para tarjetas SPARC HME.
 
-%description -l pl
-Pakiet ten zawiera narzêdzia sprzêgaj±ce ze sprzêtem zarz±dzanym w
+%description -l pl.UTF-8
+Pakiet ten zawiera narzÄ™dzia sprzÄ™gajÄ…ce ze sprzÄ™tem zarzÄ…dzanym w
 oparciu o IPMI. IPMI oznacza Intelligent Platform Management Interface
-(inteligentny interfejs do zarz±dzania platform±). Wspiera on takie
-mo¿liwo¶ci, jak watchdogi czy pobieranie FRU. ethtool to niewielkie
-narzêdzie do kontroli i tuningu sieciowych kart ethernet.
+(inteligentny interfejs do zarzÄ…dzania platformÄ…). Wspiera on takie
+moÅ¼liwoÅ›ci, jak watchdogi czy pobieranie FRU. ethtool to niewielkie
+narzÄ™dzie do kontroli i tuningu sieciowych kart ethernet.
 
-%description -l pt_BR
-Este utilitário permite consulta e alteração da configuração de placas
-ethernet, como velocidade, porta, negociação automática e localização
+%description -l pt_BR.UTF-8
+Este utilitÃ¡rio permite consulta e alteraÃ§Ã£o da configuraÃ§Ã£o de placas
+ethernet, como velocidade, porta, negociaÃ§Ã£o automÃ¡tica e localizaÃ§Ã£o
 PCI.
 
 %prep
