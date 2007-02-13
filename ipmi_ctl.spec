@@ -1,5 +1,5 @@
 Summary:	Utilities to interface with IPMI based managment hardware
-Summary(pl.UTF-8):   Narzędzia sprzęgające ze sprzętem zarządzanym w oparciu o IPMI
+Summary(pl.UTF-8):	Narzędzia sprzęgające ze sprzętem zarządzanym w oparciu o IPMI
 Name:		ipmi_ctl
 Version:	2.0
 Release:	1
